@@ -60,13 +60,13 @@ def main():
         help='Filter tracks by year; "NUM", "NUM-NUM", "all" (default: all years)',
     )
     args_parser.add_argument(
-        "--title", metavar="TITLE", type=str, help="Title to display."
+        "--title", metavar="TITLE", type=str, default="飛馳的細狗", help="Title to display."
     )
     args_parser.add_argument(
         "--athlete",
         metavar="NAME",
         type=str,
-        default="John Doe",
+        default="auhjin_ai8",
         help='Athlete name to display (default: "John Doe").',
     )
     args_parser.add_argument(
