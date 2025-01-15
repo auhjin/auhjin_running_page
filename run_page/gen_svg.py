@@ -60,7 +60,7 @@ def main():
         help='Filter tracks by year; "NUM", "NUM-NUM", "all" (default: all years)',
     )
     args_parser.add_argument(
-        "--title", metavar="TITLE", type=str, default="飛馳的細狗", help="Title to display."
+        "--title", metavar="TITLE", type=str, default="auhjin", help="Title to display."
     )
     args_parser.add_argument(
         "--athlete",
